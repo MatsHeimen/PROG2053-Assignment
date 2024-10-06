@@ -1,0 +1,18 @@
+#weatherContainer h1{
+    margin:0;
+}
+
+.location{
+   margin: 40px auto 40px auto;
+   width:40%;
+   border: 2px solid black;
+   background-color:beige;
+   padding:30px;
+}
+
+.temperature, .windspeed{
+    font-size: 18pt;
+    width:fit-content;
+    margin:15px auto 15px auto;
+}
+
