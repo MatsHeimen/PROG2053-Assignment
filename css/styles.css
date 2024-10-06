@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+/* example usage: var(--blue) */
+:root {
+    --dark_blue: #1f2936;
+    --blue: #3782F5;
+    --grey: #E4E5EB;
+}
+
+#SignUpSection{
+    background-color: var(--dark_blue);
+    color:white;
+    display:flex;
+    justify-content: center;
+    height:250px;
+}
+
+#left{
+    width:20%;
+    padding: 40px 40px 0 0;
+}
+
+#left > button{
+    width: 100px;
+    font-size: 14pt;
+    border: none;
+    border-radius: 8px;
+    background-color:var(--blue);
+    color:white;
+}
+
+#left > h1{
+    font-size: 2em;
+    margin:0;
+}
+
+#right{
+    padding: 40px 0 0 0;
+}
+
+#right > img{
+    height:170px; 
+    width: 330px;
+}
+
+#InformatinSection > h1{
+    width:fit-content;
+    margin: 30px auto 50px auto;
+}
+
+.content > img{
+    height:170px; 
+    width:300px;
+    border: var(--blue) solid 4px;
+    border-radius: 10px;
+}
+
+.content > p{
+    width: 350px;
+    margin: 30px;
+}
+
+.content{
+    display:flex;
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 80px;
+}
+
+#QuoteSection{
+    width:100%;
+    background-color: var(--grey);
+}
+
+#QuoteSection > p{
+    width:40%;
+    padding-top:70px;
+    margin: 0 auto 0 auto;
+    font-size: 16pt;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#QuoteAuthor{
+    width:40%;
+    text-align: right;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+    font-weight:bold;
+    font-size: 16pt;
+}
+
+#CTA{
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 65%;
+    height:130px;
+    margin: 80px auto 80px auto;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+#CTA-left{
+    width: 60%;
+}
+
+#CTA-left > h2{
+    margin: 40px 0 0 0;
+}
+
+#CTA-left > p{
+    margin: 0 0 30px 0;
+    font-size: 14pt;
+}
+
+#CTA-right > button{
+    width: 100px;
+    font-size: 14pt;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color:var(--blue);
+    color:white;
+    margin: 50px;
+}
